@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"; // Importa comp
 
 import { NavModel } from "./components/navbar/Navbar"; // Importa el componente NavModel desde "./components/navbar/Navbar"
 
+
 import {
   InicioView,
   ProductosView,

@@ -3,10 +3,10 @@ import { useParams } from "react-router-dom";
 import './detalleProducto.scss';
 import { useMarketplace } from "../../context";
 // Importa los logos correspondientes
-import NINTENDO from '../../assets/logos/nintendo.png';
-import SEGA from '../../assets/logos/sega.png';
-import PLAYSTATION from '../../assets/logos/playstation.png';
-import ATARI from '../../assets/logos/atari.png';
+import NINTENDO from '../../assets/logos/logo-nintendo.png';
+import SEGA from '../../assets/logos/logo-sega.png';
+import PLAYSTATION from '../../assets/logos/logo-playstation.png';
+import ATARI from '../../assets/logos/logo-atari.png';
 
 export const DetalleProducto = () => {
   const { producto, categoria } = useParams(); // Obtiene el parámetro de la URL
@@ -53,7 +53,7 @@ export const DetalleProducto = () => {
     <div className="detalle-producto">
       <div className="logo-producto">
         <img src={logos[categoria]} alt="Logo de la marca" />
-      </div>
+      </div> 
       <div className="producto-info">
         <h2 className="producto-nombre">{product.nombre}</h2>
         <p className="producto-descripcion">{product.descripcion}</p>

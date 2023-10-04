@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Carrito.scss";
+import "./carrito.scss";
 import { useMarketplace } from "../../context";
 
 

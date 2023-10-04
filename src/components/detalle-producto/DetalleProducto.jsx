@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import './detalleProducto.scss';
 import { useMarketplace } from "../../context";
+
 // Importa los logos correspondientes
 import NINTENDO from '../../assets/logos/nintendo.png';
 import SEGA from '../../assets/logos/sega.png';

@@ -1,5 +1,5 @@
 import axios from "axios"; // Importa axios para realizar solicitudes HTTP
-import "./LoginForm.scss";
+import "./loginForm.scss";
 import { useState } from "react"; // Importa useState desde la biblioteca 'react'
 import { useMarketplace } from "../../context"; // Importa el contexto global desde "../../context"
 import "bootstrap/dist/css/bootstrap.min.css"; //NUEVO 

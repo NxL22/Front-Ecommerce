@@ -3,7 +3,7 @@ import React from "react"; // Importa React
 import "./registrarUsuarioForm.scss"; // Importa estilos CSS desde un archivo llamado registrarUsuarioForm.scss
 import { useState } from "react"; // Importa useState desde la biblioteca 'react'
 import { useMarketplace } from "../../context"; // Importa el contexto global desde "../../context"
-import "./RegistrarUsuarioForm.scss"
+
 
 export const RegistrarUsuarioForm = () => {
   const [name, setName] = useState(""); // Estado para el campo de nombre

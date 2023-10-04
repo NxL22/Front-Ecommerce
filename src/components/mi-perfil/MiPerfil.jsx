@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaUserPlus } from 'react-icons/fa';
-import './MiPerfil.scss';
+import './miPerfil.scss';
 import { useDropzone } from 'react-dropzone';
 import axios from 'axios';
 import { Link } from 'react-router-dom';  

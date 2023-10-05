@@ -8,6 +8,7 @@ import SEGA from '../../assets/logos/logo-sega.png';
 import PLAYSTATION from '../../assets/logos/logo-playstation.png';
 import ATARI from '../../assets/logos/logo-atari.png';
 
+
 export const DetalleProducto = () => {
   const { producto, categoria } = useParams(); // Obtiene el parámetro de la URL
   const [product, setProduct] = useState({});

@@ -6,8 +6,8 @@ import { Productos } from '../productos/Productos'
 export const Inicio = () => {
 
   const carouselImages = {
-    img1: ".././src/assets/xbox.jpg",
-    img2: ".././src/assets/switch.jpg"
+    img1: "../../assets/xbox.jpg",
+    img2: "../../assets/switch.jpg"
   }
 
   return (  
